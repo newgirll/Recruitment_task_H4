@@ -44,6 +44,10 @@ $desktop: 1200px;
 }
 
 @media screen and (min-width: $mobile) {
+    .arrow {
+        display: none;
+    }
+
 
     .box__list .item:nth-child(8){
         display: inline-block;

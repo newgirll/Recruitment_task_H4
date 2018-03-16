@@ -10,6 +10,7 @@ body {
     align-items: center;
     min-width: 320px;
     width: 100%;
+    margin: 0 auto;
 }
 
 .box {
@@ -18,12 +19,24 @@ body {
     display: flex;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.14);
     background: #FFFFFF;
+    position: relative;
 }
 
 .product-two {
     margin-top: 5px;
 }
 
+.arrow {
+    display: inline-block;
+    border-bottom: 1px solid #a8a5a5;
+    border-left: 1px solid #a8a5a5;
+    width: 10px;
+    height: 10px;
+    transform: rotate(-45deg);
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
 
 .box__list {
     list-style: none;
@@ -70,13 +83,19 @@ body {
    display: inline-block;
 }
 
+
 .box__list__item--eye,
 .box__list__item--weight {
     display: inline-block;
     text-align: right;
     position: absolute;
-    right: 10px;
+    right: 5px;
     vertical-align: top;    
+}
+
+.eye:hover {
+    color: green;
+    fill: currentColor; 
 }
 
 .box__list__item--umbrella {
@@ -153,7 +172,7 @@ body {
 .list__item__btn {
     order: 1;
     border-bottom: 1px solid lighten(#979797, 30%);
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     width: 100%;
     position: relative;
     display: flex;
@@ -170,6 +189,6 @@ body {
 .list__item--button {
     padding: 12px 0;
     width: 100%;
-    margin-top: 10px;
+    margin: 10px 0;
 }
 

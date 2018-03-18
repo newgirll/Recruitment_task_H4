@@ -15,6 +15,7 @@ $desktop: 1200px;
     }
 }
 
+
 @media screen and (min-width: 570px) {
     .box__list .item:nth-child(6) {
         display: inline-block;
@@ -28,6 +29,7 @@ $desktop: 1200px;
         width: 18%;
     }
 }
+
 
 @media screen and (min-width: 670px) {
     .box__list .item:nth-child(7){
@@ -43,10 +45,11 @@ $desktop: 1200px;
 
 }
 
+
 @media screen and (min-width: $mobile) {
-    .arrow {
-        display: none;
-    }
+    // .arrow {
+    //     display: none;
+    // }
 
 
     .box__list .item:nth-child(8){
@@ -71,14 +74,14 @@ $desktop: 1200px;
 
     .box__list {
         flex-wrap: nowrap;
-        padding: 20px 0;
+        padding: 10px 0;
         margin: 0;
     }
 
 
     .box__list__title {
         height: auto;
-        padding: 40px 5px;
+        padding: 40px 3px;
         margin: 0;
     }
 
@@ -96,6 +99,7 @@ $desktop: 1200px;
     .list__item--text {
         width: 25%;
         margin-left: 20px;
+        margin-bottom: 10px;
     }
 
 

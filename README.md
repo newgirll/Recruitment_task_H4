@@ -3,7 +3,7 @@
 This task was created for recruitment purpose.
 The purpose was to build two elements and style them according to given example.
 
-To check the result, click the link: 
+To check the result, click the link: https://newgirll.github.io/Recruitment_task_H4/
 
 Still to do: add event, to mobile(show more items);
 

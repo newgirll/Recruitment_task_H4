@@ -1,8 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(){
     const eye = document.querySelectorAll(".box__list__item--eye");
     const weight = document.querySelectorAll(".box__list__item--weight");
-    // const list = document.querySelector(".box__list");
-    // const arrow = document.querySelectorAll(".arrow");
 
 
     for(var i = 0; i < eye.length; i++) {
@@ -27,10 +25,5 @@ document.addEventListener("DOMContentLoaded", function(){
         }
     }
 
-    // for(var i = 0; i< arrow.length; i++){
-    //     arrow[i].addEventListener("touchenter", function(){
-    //         console.log("tak")
-    //     })
-    // }
     
 })

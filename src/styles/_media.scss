@@ -47,11 +47,6 @@ $desktop: 1200px;
 
 
 @media screen and (min-width: $mobile) {
-    // .arrow {
-    //     display: none;
-    // }
-
-
     .box__list .item:nth-child(8){
         display: inline-block;
         border-left: 1px solid lighten(#979797, 30%);
@@ -117,6 +112,7 @@ $desktop: 1200px;
     .list__item--price,
     .list__item--perc {
         order: 1;
+        padding-top: 20px;
     }
 
 

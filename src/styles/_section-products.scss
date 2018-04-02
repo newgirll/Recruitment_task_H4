@@ -167,7 +167,12 @@ body {
     border-radius: 4px;	background: linear-gradient(90deg, #D22D4F 0%, #F86358 100%);
     box-shadow: 0 2px 4px 0 rgba(250,91,30,0.34);
     border: 0;
+    cursor: pointer;
    
+}
+
+.btn:hover {
+    background: rgb(167, 49, 49);
 }
 
 
